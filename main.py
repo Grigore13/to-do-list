@@ -2,7 +2,6 @@ tasks = []
 def add_task():
     task = input('Write your task for today:')
     tasks.append(task)
-    print('\n')
     print('Done ✅')
 
 
